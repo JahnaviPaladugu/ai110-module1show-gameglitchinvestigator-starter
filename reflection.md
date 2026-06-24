@@ -53,6 +53,7 @@ Document at least 3 bugs you found. Add rows as needed.
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+   Streamlit is a tool (python opensource framework) that allows us to build web applications like this game. Streamlit "reruns" means that the web application doesn't save your previous state and what you've done so every time the application runs, its a new clean application that runs from the top again. A session state is data that we can write to when running the strealit so that the data is saved and can be called in the next run. When the streamlit "reruns", it checks the data is session state and rathers the previous states info and uses it if needed.
 
 ---
 
@@ -60,5 +61,8 @@ Document at least 3 bugs you found. Add rows as needed.
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+     When I used to work with AI before and I needed bugs to be fixed in the code, I used to tell the UI to find the bug and fix it and used that code with minimal testing and no proofreading. From this project, I learned that its important to point the Agent to the exact bugs that you want to be fixed, read the code that it modified, and do thorough testing before using the code. I learned that Prompty engineering is more than "fix this" and we need to be the guide to the agent rather than blidly following it.
 - What is one thing you would do differently next time you work with AI on a coding task?
+    next time I work with AI, I would ask follow up questions before approving to let it implement the bug fixes. I would also ask it to ask me questions to understand the problem statment better so that it can create accurate code.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+    I used to be intimidated by AI because it can offscript and generate code that it not needed or code that I didn't understand. But this project showed me that its a very useful tool if we learn to stay in control with the type of prompts that we give the AI.
